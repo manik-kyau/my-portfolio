@@ -1,12 +1,12 @@
 import about from '../../assets/images/about.jpg';
 const About = () => {
     return (
-        <div className="pt-16 px-[80px] bg-[#26384d] h-full">
-            <div className='py-14 flex gap-8'>
+        <div className="pt-16 px-5 md:px-[80px] bg-[#26384d] h-full">
+            <div className='py-14 flex flex-col md:flex-row gap-8'>
                 <div className='w-[460px]'>
-                    <img className='h-[400px] w-[400px] rounded-full' src={about} alt="" />
+                    <img className='h-[400px] w-full md:w-[400px] rounded-md md:rounded-full' src={about} alt="" />
                 </div>
-                <div className='w-1/2'>
+                <div className='w-full md:w-1/2'>
                     <h1 className='text-4xl font-bold text-white mb-1'>About <span className='text-[#9af10f]'>Me</span></h1>
                     <hr />
                     <h2 className='text-2xl font-bold text-white my-3'>Frontend Developer</h2>

@@ -26,13 +26,13 @@ const Footer = () => {
                 </aside>
                 <nav>
                     <div className="grid grid-flow-col gap-4">
-                        <a href="https://www.facebook.com/profile.php?id=100009168905374">
+                        <a href="https://www.facebook.com/profile.php?id=100009168905374" target="_blank">
                             <FaFacebook className="text-2xl"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/md-manik-sarkar/">
+                        <a href="https://www.linkedin.com/in/md-manik-sarkar/" target="_blank">
                             <FaLinkedin className="text-2xl"/>
                         </a>
-                        <a href="https://github.com/manik-kyau">
+                        <a href="https://github.com/manik-kyau" target="_blank">
                             <FaGithub className="text-2xl"/>
                         </a>
                     </div>

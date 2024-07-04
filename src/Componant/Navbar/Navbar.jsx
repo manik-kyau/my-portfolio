@@ -2,16 +2,17 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navItem = <>
-        <li className="text-white"><NavLink to='/'>Home</NavLink></li>
-        <li className="text-white"><NavLink to='/about'>About</NavLink></li>
-        <li className="text-white"><NavLink to='/project'>Projects</NavLink></li>
-        <li className="text-white"><NavLink to='/blog'>Blog</NavLink></li>
-        <li className="text-white"><NavLink to='/contact'>Contact</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/'>Home</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/about'>About</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/project'>Projects</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/skils'>Skils</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/blog'>Blog</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/contact'>Contact</NavLink></li>
     </>
     return (
         <div className="">
             {/* bg-black bg-opacity-40 */}
-            <div className="fixed navbar bg-neutral px-5 md:px-[80px] ">
+            <div className="fixed navbar bg-neutral px-5 md:px-[80px] z-50">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="lg:hidden mr-5">
@@ -42,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="text-lg font-bold border-2 text-white border-[#9af10f] px-5 py-1 rounded-md">Resume</a>
                 </div>
             </div>
         </div>

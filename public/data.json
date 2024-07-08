@@ -4,7 +4,7 @@
       "image": "https://i.ibb.co/p2sGPV8/home.png",
       "technology": ["ReactJs for making UI", "React Router for making it a single page application", "Tailwind CSS and Daisy UI for design","Firebase for authentication and hosting","MongoDb for Database","React icons for use icon"],
 
-      "features": ["Frist this site will have Home Page. There will be banner section,Posts section and Announcements section.", "A normal user cannot more than 5 posts.If user want to more than 5 posts, he has to become a membership by making payment", "User can upVote or downVote, comment and share any post","A user can see all this submitted posts on 'My Posts' page.","Admin can control the total system"],
+      "features": ["TalkBridge is an innovative communication platform designed to bridge the gap between diverse languages and cultures. ", "A normal user cannot more than 5 posts.If user want to more than 5 posts, he has to become a membership by making payment", "User can upVote or downVote, comment and share any post","Users can log in or register using Google, or email/password for easy and secure access.","Admin can control the total system"],
 
       "description": "TalkBridge is an innovative communication platform designed to bridge the gap between diverse languages and cultures. Utilizing advanced natural language processing (NLP) and machine learning technologies, TalkBridge provides seamless translation and transcription services to facilitate real-time, effective communication across different languages.",
       "clientSite": "https://github.com/manik-kyau/talk-bridge-client",
@@ -25,7 +25,7 @@
       "image": "https://i.ibb.co/ySPjMN7/home2.png",
       "technology": ["ReactJs for making UI", "React Router for making it a single page application", "Tailwind CSS and Daisy UI for design","Firebase for authentication and hosting","MongoDb for Database","React icons for use icon","Swiper-slider for Slide","React-leaflet for google map","React hot toast"],
 
-      "features": ["Frist this site will have Home Page. There will be banner section,Features section,FAQ section.", "Enable users to upload and share study materials, notes, and resources within study groups.", "All assignment submitted by user will remain here in pending form until the examiner marks them.","Heare will be all assignments. A user can update and submit all assignments.But a user can't delete other assinment except his own."," A user can see all this submitted assignments on My Assignment page."],
+      "features": ["StudyBuddy is a smart study management application designed to help students organize their study materials, schedule study sessions, and collaborate with peers effectively.", "Users can log in or register using Google, GitHub, or email/password for easy and secure access.", "All assignment submitted by user will remain here in pending form until the examiner marks them.","An user can update and submit all assignments.But a user can't delete other assinment except his own."," An user can see all this submitted assignments on My Assignment page."],
 
       "description": "StudyBuddy is a smart study management application designed to help students organize their study materials, schedule study sessions, and collaborate with peers effectively. With StudyBuddy, students can streamline their study process, stay on track with their learning goals, and boost their academic performance.",
       "clientSite": "https://github.com/manik-kyau/online-group-study-client",

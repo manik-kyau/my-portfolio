@@ -1,0 +1,47 @@
+[
+    {
+        "name": "HTML",
+        "skills": "HTML is the foundational markup language used to create and structure content on web pages and applications across the internet.",
+        "image": "https://i.ibb.co/4NLg88S/html.png"
+    },
+    {
+        "name": "CSS",
+        "skills": "CSS (Cascading Style Sheets) is a language used for styling web pages, controlling layout, typography, colors, and visual aspects effectively.",
+        "image": "https://i.ibb.co/D7H2SDR/css3.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "skills": "Tailwind CSS is a utility-first CSS framework that speeds up web development with pre-defined utility classes for streamlined styling.",
+        "image": "https://i.ibb.co/60tY7YV/tailwind.png"
+    },
+    {
+        "name": "JavaScript",
+        "skills": "JavaScript powers interactive web experiences, enabling dynamic content updates, user interaction handling, and client-side functionality across modern web applications.",
+        "image": "https://i.ibb.co/Y3sBwrf/js.png"
+    },
+    {
+        "name": "React.js",
+        "skills": "Proficient in building dynamic and responsive web applications using React, with a strong understanding of component-based architecture and state management.",
+        "image": "https://i.ibb.co/xYTWYpz/react.png"
+    },
+    {
+        "name": "Firebase",
+        "skills": "Firebase provides robust authentication services, enabling secure and easy user sign-in and management for web and mobile applications.",
+        "image": "https://i.ibb.co/PGm3Gq5/firebase.png"
+    },
+    {
+        "name": "MongoDB",
+        "skills": "MongoDB is a flexible, document-based NoSQL database system, designed for high performance, scalability, and ease of development and deployment.",
+        "image": "https://i.ibb.co/CJ0xX2g/mongo.gif"
+    },
+    {
+        "name": "Node.js",
+        "skills": "Node.js is a powerful, event-driven JavaScript runtime for scalable backend development, enabling server-side scripting and efficient, real-time applications.",
+        "image": "https://i.ibb.co/KsQZXcT/nodejs.webp"
+    },
+    {
+        "name": "Express.js",
+        "skills": "Express is a minimalist, flexible Node.js web application framework providing robust features for building fast, scalable, and efficient server-side applications.",
+        "image": "https://i.ibb.co/3kzNPTM/express.png"
+    }
+]

@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 
-const SkilsCard = ({ skil }) => {
-    const { name, skills, image } = skil;
+const SkilsCard = ({ skill }) => {
+    const { name, skills, image } = skill;
     return (
         <div>
             <div className="card-compact shadow-xl flex-1  bg-gray-500 rounded-lg">
@@ -15,5 +16,9 @@ const SkilsCard = ({ skil }) => {
         </div>
     );
 };
+
+SkilsCard.propTypes = {
+    skill: PropTypes.object.isRequired,
+}
 
 export default SkilsCard;

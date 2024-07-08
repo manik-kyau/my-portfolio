@@ -5,13 +5,12 @@ const Navbar = () => {
         <li className="lg:text-white WorkSans text-lg"><NavLink to='/'>Home</NavLink></li>
         <li className="lg:text-white WorkSans text-lg"><NavLink to='/about'>About</NavLink></li>
         <li className="lg:text-white WorkSans text-lg"><NavLink to='/project'>Projects</NavLink></li>
-        <li className="lg:text-white WorkSans text-lg"><NavLink to='/skils'>Skils</NavLink></li>
+        <li className="lg:text-white WorkSans text-lg"><NavLink to='/skils'>Skills</NavLink></li>
         <li className="lg:text-white WorkSans text-lg"><NavLink to='/blog'>Blog</NavLink></li>
         <li className="lg:text-white WorkSans text-lg"><NavLink to='/contact'>Contact</NavLink></li>
     </>
     return (
         <div className="">
-            {/* bg-black bg-opacity-40 */}
             <div className="fixed navbar bg-neutral px-5 md:px-[80px] z-50">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -43,7 +42,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="text-lg font-bold border-2 text-white border-[#9af10f] px-5 py-1 rounded-md">Resume</a>
+                    <a href="https://drive.google.com/file/d/1tmDWSgxvHAXW6mQ6QAQoUoG9v9zDVV86/view?usp=sharing" target="_blank" className="text-lg font-bold border-2 text-white border-[#9af10f] px-5 py-1 rounded-md cursor-pointer">Resume</a>
                 </div>
             </div>
         </div>
